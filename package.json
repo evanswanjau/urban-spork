@@ -4,7 +4,8 @@
     "description": "A simple blog app with node",
     "main": "app.js",
     "scripts": {
-        "test": "mocha tests --exit"
+        "test": "mocha tests --exit",
+        "start":"node app.js"
     },
     "repository": {
         "type": "git",
