@@ -1,0 +1,27 @@
+{
+    "name": "urban-spork",
+    "version": "1.0.0",
+    "description": "A simple blog app with node",
+    "main": "app.js",
+    "scripts": {
+        "test": "mocha tests"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/evanswanjau/urban-spork.git"
+    },
+    "author": "evanswanjau",
+    "license": "GPL-3.0-or-later",
+    "bugs": {
+        "url": "https://github.com/evanswanjau/urban-spork/issues"
+    },
+    "homepage": "https://github.com/evanswanjau/urban-spork#readme",
+    "dependencies": {
+        "express": "^4.17.1",
+        "nodemon": "^2.0.7"
+    },
+    "devDependencies": {
+        "chai": "^4.3.4",
+        "mocha": "^9.0.0"
+    }
+}
