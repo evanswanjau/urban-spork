@@ -4,7 +4,7 @@
     "description": "A simple blog app with node",
     "main": "app.js",
     "scripts": {
-        "test": "mocha tests"
+        "test": "mocha tests --exit"
     },
     "repository": {
         "type": "git",
@@ -22,6 +22,7 @@
     },
     "devDependencies": {
         "chai": "^4.3.4",
+        "chai-http": "^4.3.0",
         "mocha": "^9.0.0"
     }
 }
